@@ -14,6 +14,7 @@ public class Primes {
     }
 
     public static boolean isPrimeWhile(int n) {
+
         int m = (int) Math.sqrt(n);
         int i = 2;
         while (i < m) {

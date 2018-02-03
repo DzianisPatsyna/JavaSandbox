@@ -1,8 +1,9 @@
 package ru.stqa.ptf.sandbox;
 
-public class MyFirstProgramm {
+public class Area {
 
     public static void main(String[] args) {
+
         hello("world");
         hello("user");
         hello("Denis");
@@ -12,7 +13,6 @@ public class MyFirstProgramm {
 
         Rectangle r = new Rectangle(4, 6);
         System.out.println("Площадь прямоугольника со сторонами " + r.a + " и " + r.b + " = " + r.area());
-
     }
 
     public static void hello(String somebody) {
